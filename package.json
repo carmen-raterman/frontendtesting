@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "//": "this is the test command you should use when you're still writing your tests",
+    "test-development": "jest --watch"
   },
   "dependencies": {
     "@babel/preset-env": "^7.22.20",
